@@ -76,7 +76,6 @@
 			children = (
 				1398FD632C241F8A00FA0BD3 /* SampleSDK */,
 				1398FD6F2C241F8A00FA0BD3 /* SampleSDKTests */,
-				1398FD802C24200400FA0BD3 /* SampleApp */,
 				1398FD622C241F8A00FA0BD3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +93,7 @@
 		1398FD632C241F8A00FA0BD3 /* SampleSDK */ = {
 			isa = PBXGroup;
 			children = (
+				1398FD802C24200400FA0BD3 /* SampleApp */,
 				1398FD642C241F8A00FA0BD3 /* SampleSDK.h */,
 				1398FD652C241F8A00FA0BD3 /* SampleSDK.docc */,
 			);
