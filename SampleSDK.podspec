@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   
 
   spec.name         = "SampleSDK"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.7"
   spec.summary      = "A short description of SampleSDK."
 
   
