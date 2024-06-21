@@ -17,6 +17,8 @@
 		1398FD892C24200400FA0BD3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1398FD882C24200400FA0BD3 /* Base */; };
 		1398FD8B2C24200500FA0BD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1398FD8A2C24200500FA0BD3 /* Assets.xcassets */; };
 		1398FD8E2C24200500FA0BD3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1398FD8D2C24200500FA0BD3 /* Base */; };
+		1398FD942C25A13300FA0BD3 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1398FD932C25A13300FA0BD3 /* ViewControllerTwo.swift */; };
+		1398FD962C25A14C00FA0BD3 /* ViewControllerTwo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1398FD952C25A14C00FA0BD3 /* ViewControllerTwo.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		1398FD8A2C24200500FA0BD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1398FD8D2C24200500FA0BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1398FD8F2C24200500FA0BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1398FD932C25A13300FA0BD3 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		1398FD952C25A14C00FA0BD3 /* ViewControllerTwo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewControllerTwo.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				1398FD832C24200400FA0BD3 /* SceneDelegate.swift */,
 				1398FD852C24200400FA0BD3 /* ViewController.swift */,
 				1398FD872C24200400FA0BD3 /* Main.storyboard */,
+				1398FD932C25A13300FA0BD3 /* ViewControllerTwo.swift */,
+				1398FD952C25A14C00FA0BD3 /* ViewControllerTwo.storyboard */,
 				1398FD8A2C24200500FA0BD3 /* Assets.xcassets */,
 				1398FD8C2C24200500FA0BD3 /* LaunchScreen.storyboard */,
 				1398FD8F2C24200500FA0BD3 /* Info.plist */,
@@ -235,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1398FD962C25A14C00FA0BD3 /* ViewControllerTwo.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1398FD662C241F8A00FA0BD3 /* SampleSDK.docc in Sources */,
+				1398FD942C25A13300FA0BD3 /* ViewControllerTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +518,7 @@
 		1398FD792C241F8A00FA0BD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NN4FAH5SZT;
@@ -526,6 +535,7 @@
 		1398FD7A2C241F8A00FA0BD3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NN4FAH5SZT;

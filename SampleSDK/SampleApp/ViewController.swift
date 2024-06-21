@@ -16,6 +16,9 @@ public class ViewController: UIViewController {
     }
     public func getData() {
         print("ABCD")
+        guard let popupVC = UIStoryboard(name: "ViewControllerTwo", bundle: nil).instantiateViewController(withIdentifier: "VCSDK") as? UIViewController else { return }
+        self.navigationController?.pushViewController(popupVC, animated: true)
+
     }
 
 }
