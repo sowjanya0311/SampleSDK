@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   
 
   spec.name         = "SampleSDK"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.5"
   spec.summary      = "A short description of SampleSDK."
 
   
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
 
 
 
-  spec.source_files  = "SampleSDK/**/*.{h,m,swift}"
+  spec.source_files  = "SampleSDK/**/*.{h,m,swift,storyboard,xcassets}"
 
 
 
